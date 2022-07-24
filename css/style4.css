@@ -1,0 +1,113 @@
+/* Обнуление */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 21px;
+    line-height: 29.8px;
+    color: #18447A;
+}
+html,
+body{
+    height: 100%;
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* -------- head-------- */
+.calendar-wrapper {
+    width: 266.66px;
+    /* max-height: 394.22px; */
+    margin: 3em auto;
+    padding: 2em;
+    border: 1px solid #B0B0B0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    background: #fff;
+  }
+  table {
+    clear: both;
+    width: 100%;
+    border: 0px solid #dcdcff;
+    border-radius: 9px;
+    border-collapse: collapse;
+    color: blues;
+  }
+  td {
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 0px solid #dcdcff;
+    border-top: 0px solid #dcdcff;
+    width: 14.28571429%;
+  }
+  td.not-current {
+    color: #C4C4C4;
+  }
+  td.today {
+    font-weight: 700;
+    color: #28283b;
+    font-size: 1.5em;
+  }
+  thead td {
+    border: none;
+    color: #28283b;
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+  #btnPrev {
+    float: left;
+    margin-top: 20px;
+  }
+  #btnPrev:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    padding-right: 4px;
+  }
+  #btnNext {
+    float: right;
+    margin-bottom: 20px;
+  }
+  #btnNext:after {
+    content: '\f105';
+    font-family: FontAwesome;
+    padding-left: 4px;
+  }
+  #btnPrev,
+  #btnNext {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #c0c0c0;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  #btnPrev:hover,
+  #btnNext:hover {
+    color: #28283b;
+    font-weight: bold;
+  }
