@@ -1,0 +1,207 @@
+/* Обнуление */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 21px;
+    line-height: 29.8px;
+    color: #18447A;
+}
+html,
+body{
+    height: 100%;
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    margin: 0;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.head__container{
+    max-width: 320px;
+}
+.container{
+    max-width: 320px;
+    margin: 0 auto;
+}
+.head__image{
+    position: relative;
+    width: 320px;
+    height: 170.5px;
+}
+.head__boat{
+    width: 100%;
+    height: 100%;
+}
+.head__image-info{
+    font-family: 'Noto Serif', serif;
+    position: absolute;
+    left: 14.48px;
+    top: 3.14px;
+    color: #18447A;
+    background: #E4E4E4;
+    opacity: 0.8;
+    border: 2px solid #18447A;
+    width: 23.73px;
+    height: 23.07px;
+}
+.head__christ{
+    position: absolute;
+    width: 19.49px;
+    height: 19.49px;
+    right: 9px;
+    top: 7.71px;
+}
+.main__yate{
+    width: 320px;
+    height: 25.87px;
+    background-color: #DDEAEA;;
+}
+.main__yate-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10.39px;
+}
+
+/* ---------------------MAIN-------------- */
+.main__price{
+    margin-top: 12.73px;
+    margin-left: 15.86px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.main__times{
+    display: flex;
+    margin-top: 11.67px;
+    justify-content: space-around;
+}
+.main__times-btn{
+    width: 87.25px;
+    height: 25.66px;
+    border: 1px solid #418EDD;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.activated{
+    background-color: #418EDD;
+    color: white;
+}
+.main__sometext{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10.26px;
+    margin-left: 10px;
+    margin-bottom: 5.33px;
+}
+.main__calendar{
+    display: flex;
+}
+.calendar__left{
+    width: 63.42px;
+    height: 33.51px;
+    border: 1px solid #54ACFF;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 12px;
+    color: #2569B0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+}
+.calendar__span{
+    display: block;
+}
+.calendar__middle{
+    position: relative;
+    width: calc(148.18px - 27.49px);
+    border: 1px solid #C0C1C3;
+    border-radius: 0px 2px 2px 0px;
+}
+.calendar__clock{
+    position: absolute;
+    left: 15.69px;
+    top: 7.96px;
+}
+.calendar__text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;   
+}
+.calendar__text{
+    position: absolute;
+    left: 41px;
+}
+.calendar__right{
+    display: flex;
+    width: 27.49px;
+    height: 33.51px;
+    border: 1px solid #C0C1C3;
+    border-radius: 0px 3px 3px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.calendar__img{
+    width: 13.15px;
+    height: 8px;
+}
+.form{
+    margin-top: 7.32px;
+}
+.form__first{
+    width: 288px;
+    height: 29px;
+    border: 1px solid #ABABAB;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.big{
+    width: 288px;
+    height: 77px;
+}
+.form__btn{
+    width: 287.43px;
+    height: 42.85px;
+    background: linear-gradient(90deg, #418EDD 1.92%, #54ACFF 100%);
+    box-shadow: 0px 4px 4px rgba(0, 50, 108, 0.25);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;   
+    color: white;
+}
